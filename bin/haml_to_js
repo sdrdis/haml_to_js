@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require 'haml_to_js/compiler'
+
+inst = Compiler.new
+puts inst.convert_from_string(ARGF.read)

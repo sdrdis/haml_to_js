@@ -8,5 +8,6 @@ Gem::Specification.new do |s|
   s.authors     = ["Sébastien Drouyer"]
   s.email       = 'sdrdis@hotmail.com'
   s.files       = ["lib/haml_to_js.rb"]
+  s.executables = ['haml_to_js']
   s.homepage    = 'http://rubygems.org/gems/haml_to_js'
 end
