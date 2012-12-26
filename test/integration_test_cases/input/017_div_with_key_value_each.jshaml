@@ -1,0 +1,3 @@
+.class
+  - each id: car in cars
+    .car

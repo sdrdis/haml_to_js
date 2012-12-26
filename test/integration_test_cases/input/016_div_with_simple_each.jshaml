@@ -1,0 +1,3 @@
+.class
+  - each car in cars
+    .car

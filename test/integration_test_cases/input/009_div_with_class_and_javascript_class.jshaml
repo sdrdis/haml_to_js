@@ -1,0 +1,1 @@
+.class{class: variable ? 'true' : 'false'}

@@ -1,0 +1,5 @@
+.class
+  - if (condition)
+    .true
+  - else
+    .false

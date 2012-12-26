@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.description = "haml_to_js allows you to convert haml code into javascript equivalent code."
   s.authors     = ["Sébastien Drouyer"]
   s.email       = 'sdrdis@hotmail.com'
-  s.files       = ["lib/haml_to_js.rb"]
+  s.files       = `git ls-files`.split("\n")
   s.executables = ['haml_to_js']
   s.homepage    = 'http://rubygems.org/gems/haml_to_js'
 end
