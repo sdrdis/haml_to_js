@@ -8,9 +8,9 @@ Why an other haml to js converter (see similar utilities) ?
 * This converter is intended for front usage
 * It simplifies debugging (the generated code is readable, a variable hold haml line number so you can know exactly where the problem is)
 * It support features that other don't support:
-** If...else statements
-** Declarations such as `.first{class: 'second'}` will generate `<div class="first second"></div>`
-** Support for brackets inside parameters (ex: `%div{key: 'value with bracket}'}`)
+  * if...else statements
+  * Declarations such as `.first{class: 'second'}` will generate `<div class="first second"></div>`
+  * Support for brackets inside parameters (ex: `%div{key: 'value with bracket}'}`)
 
 Similar utilities
 -----------------
