@@ -12,6 +12,16 @@ Why an other haml to js converter (see similar utilities) ?
   * Declarations such as `.first{class: 'second'}` will generate `<div class="first second"></div>`
   * Support for brackets inside parameters (ex: `%div{key: 'value with bracket}'}`)
 
+Installation
+------------
+
+`gem install haml_to_js`
+
+Usage
+-----
+
+`haml_to_js file` or `haml_to_js < file`
+
 Similar utilities
 -----------------
 
