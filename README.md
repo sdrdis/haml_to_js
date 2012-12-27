@@ -24,6 +24,8 @@ Usage
 
 Take a look at integration test cases in order to what generated code looks like.
 
+The generated code has dependencies; it needs two functions `attrs` and `escape`. It is recommended to use this [haml_to_js.js](https://github.com/sdrdis/haml_to_js/blob/master/js/haml_to_js.js).
+
 Contributions
 -------------
 
